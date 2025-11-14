@@ -1,0 +1,125 @@
+/* ========== FOOTER ========== */
+.footer {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #f8fafc;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid #334155;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+/* Layout */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 250px;
+  max-width: 1500px  auto;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.footer-section {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.footer-section h3::after,
+.footer-section h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #60a5fa;
+  border-radius: 2px;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+/* Links */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #e2e8f0;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.footer-section a:hover {
+  color: #60a5fa;
+  transform: translateX(5px);
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 0;
+  border-top: 1px solid #334155;
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  background: rgba(15, 23, 42, 0.2);
+}
+
+.footer-bottom span {
+  font-weight: 600;
+  color: #60a5fa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .footer-section {
+    min-width: 100%;
+  }
+
+  .footer {
+    padding: 0;
+  }
+  
+  .footer-bottom {
+    padding: 1rem;
+  }
+}
+
+/* Full-width adjustment */
+@media (min-width: 1200px) {
+  .footer-container {
+    padding: 1.5rem 3rem;
+  }
+}
