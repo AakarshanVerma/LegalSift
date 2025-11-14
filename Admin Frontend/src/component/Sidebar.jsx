@@ -7,7 +7,7 @@ import {
   FaComments,
   FaGavel,
   FaCreditCard,
-  FaCogs,
+  FaCogs, 
   FaBell,
   FaLifeRing,
 } from "react-icons/fa";
