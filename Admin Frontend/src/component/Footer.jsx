@@ -14,7 +14,7 @@ const Footer = () => {
           Legal 
         </a>
         <a href="#contact" className="footer-link">
-          Contact 
+          Contact
         </a>
       </div> 
 
