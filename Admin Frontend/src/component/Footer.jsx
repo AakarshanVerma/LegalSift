@@ -16,7 +16,7 @@ const Footer = () => {
         <a href="#contact" className="footer-link">
           Contact
         </a>
-      </div>
+      </div> 
 
       {/* Right Section */}
       <div className="footer-right">
